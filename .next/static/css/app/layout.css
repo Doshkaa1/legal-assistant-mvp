@@ -1,0 +1,18 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+:root { --bg:#0b0f14; --card:#101826; --text:#e6edf3; --muted:#9fb0c3; --accent:#3b82f6; }
+* { box-sizing: border-box; }
+html, body { padding:0; margin:0; background:var(--bg); color:var(--text); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; }
+a { color: var(--accent); text-decoration: none; }
+.container { max-width: 880px; margin: 40px auto; padding: 24px; background: var(--card); border-radius: 18px; box-shadow: 0 10px 30px rgba(0,0,0,.3); }
+.header { display:flex; justify-content:space-between; align-items:center; margin-bottom: 16px; }
+.badge { font-size:12px; color: var(--muted); background: rgba(255,255,255,.06); padding:6px 10px; border-radius:999px; }
+.inputRow { display:flex; gap:12px; margin-top:16px; }
+.inputRow input { flex:1 1; padding:12px 14px; border-radius:12px; border:1px solid #223045; background:#0e1522; color:var(--text); }
+.inputRow button { padding:12px 16px; border-radius:12px; border:0; background: var(--accent); color:white; font-weight:600; cursor:pointer; }
+.msg { padding:14px 16px; border-radius:12px; background:#0e1624; margin:10px 0; white-space:pre-wrap; }
+.small { color: var(--muted); font-size: 12px; }
+.code { background: #0b1220; padding: 12px; border-radius: 12px; overflow:auto; }
+.hr { height:1px; background:#1a2435; margin:16px 0; }
+

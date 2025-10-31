@@ -1,0 +1,37 @@
+[
+  {
+    "topic": "harassment",
+    "jurisdiction": "CA",
+    "title": "California Civil Rights Department \u2013 Workplace Harassment",
+    "url": "https://calcivilrights.ca.gov/",
+    "summary": "Public guidance on workplace harassment, reporting options, and employer duties in California."
+  },
+  {
+    "topic": "harassment",
+    "jurisdiction": "US",
+    "title": "EEOC \u2013 Harassment",
+    "url": "https://www.eeoc.gov/harassment",
+    "summary": "Federal overview of harassment under Title VII, definitions, and complaint process."
+  },
+  {
+    "topic": "wrongful_termination",
+    "jurisdiction": "CA",
+    "title": "California Employment \u2013 Wrongful Termination (Public Guidance)",
+    "url": "https://www.ca.gov/",
+    "summary": "Basic public resources that explain termination rights and filing options in California."
+  },
+  {
+    "topic": "overtime",
+    "jurisdiction": "CA",
+    "title": "California Overtime \u2013 Labor Guidance (Public)",
+    "url": "https://www.dir.ca.gov/",
+    "summary": "General information on overtime, wage orders, and complaint filing in California."
+  },
+  {
+    "topic": "general_employment",
+    "jurisdiction": "US",
+    "title": "EEOC \u2013 Employment Rights Overview",
+    "url": "https://www.eeoc.gov/",
+    "summary": "General federal employment rights overview and how to file charges."
+  }
+]
