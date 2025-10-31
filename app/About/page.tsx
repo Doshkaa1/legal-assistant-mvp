@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <><div className="container">
+    <div className="container">
       <h2>About Legal Assistant MVP</h2>
       <p>
         This project was created by Abdulwahab and Mihai to explore the potential
@@ -11,9 +11,6 @@ export default function About() {
         The assistant uses structured logic to generate neutral responses based
         on public data and verified sources. It does not provide personalized legal advice.
       </p>
-    </div><nav style={{ marginBottom: '20px' }}>
-        <a href="/">Home</a> | <a href="/about">About</a> | <a href="/disclaimer">Disclaimer</a>
-      </nav><div className="hr" /></>
-
+    </div>
   )
 }

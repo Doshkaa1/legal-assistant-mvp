@@ -38,6 +38,9 @@ export default function Home() {
         This demo provides neutral, non-advisory summaries with public-source pointers and optional similar cases.
         Answers are auto-labeled for jurisdictional scope (Local → State → Federal). Always consult a licensed attorney for advice.
       </div>
+      <nav style={{ marginBottom: '20px' }}>
+  <a href="/">Home</a> | <a href="/about">About</a> | <a href="/disclaimer">Disclaimer</a>
+</nav>
 
       <div className="hr" />
 
