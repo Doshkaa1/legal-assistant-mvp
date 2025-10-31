@@ -42,13 +42,16 @@ export default function Home() {
       <div className="hr" />
 
       <div>
-        {messages.map((m, i) => (
-          <div key={i} className="msg">
-            <b>{m.role === 'user' ? 'You' : 'Assistant'}</b><br/>
-            {m.content}
-          </div>
-        ))}
-      </div>
+  {messages.map((m, i) => (
+    <div
+      key={i}
+      className={`msg ${m.role === 'user' ? 'user-bubble' : 'ai-bubble'}`}
+    >
+      {m.content}
+    </div>
+  ))}
+</div>
+
 
       <div className="inputRow">
         <input value={q} onChange={e=>setQ(e.target.value)} placeholder="Type your question..." />
