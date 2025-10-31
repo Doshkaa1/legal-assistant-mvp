@@ -1,15 +1,14 @@
-export default function About() {
+export default function Disclaimer() {
   return (
     <div className="container">
-      <h2>About Legal Assistant MVP</h2>
+      <h2>Disclaimer</h2>
       <p>
-        This project was created by Abdulwahab and Mihai to explore the potential
-        of AI-assisted delivery of public legal information. It is an early-stage
-        prototype and not intended to replace consultation with a qualified attorney.
+        The Legal Assistant MVP provides only general legal information from
+        publicly available sources. It does not offer legal advice or create
+        an attorney–client relationship.
       </p>
       <p>
-        The assistant uses structured logic to generate neutral responses based
-        on public data and verified sources. It does not provide personalized legal advice.
+        Always consult a licensed attorney for advice regarding your specific situation.
       </p>
     </div>
   )
